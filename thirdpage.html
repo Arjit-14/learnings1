@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="come">Types of List</h1>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>One</li>
+        <li value="5">Two</li>
+        <li>Three</li>
+    </ol>
+    <ol type="a" start="4">
+        <li>One</li>
+        <li>Two</li>
+        <li value="2">Three</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul type="circle">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>Rabbit</dt>
+        <dd>He has 2 teeth out.</dd>
+        <dt>Bear</dt>
+        <dd>He has 2 legs out.</dd>
+    </dl>
+
+    <h3>Nested Lists</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item
+            <ul>
+                <li>ONE
+                    <dl>
+                        <dt>HTML</dt>
+                        <dt>CSS</dt>
+                        <dt>JS</dt>
+                        <dd>WEB DEV</dd>
+                    </dl>
+                </li>
+            </ul>
+        </li>
+        <li>Done</li>
+    </ol>
+
+    <!-- <img src="./image.png" alt="profilr pic" style="border-radius: 50%;"> -->
+    <!-- <img src="http://localhost:8000/himanjal.png" alt="Himanjal"> -->
+    <!-- <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt=""> -->
+
+    <a href="https://www.google.com/">Google</a><br>
+    <a href="#come">Go to top of page</a><br>
+
+    <a href="about.html" >About page (default)</a>
+    <a href="about.html" target="_blank" rel="noopener noreferrer">About page(blank)</a><br>
+    <a href="about.html" target="_self">About page (self)</a><br>
+
+    <a href="about.html" target="_parent">About page (parent)</a><br>
+    <a href="about.html" target="_top">About page (top)</a><br>
+
+    
+    <iframe src="https://www.wikipedia.org" name="my frame" frameborder="220"></iframe>
+    <a href="about.html" target="my frame">Frame name</a><br>
+
+    <a href="image.png" download="virus">
+        <img src="image.png"/>
+    </a>
+
+    <!-- <a href=".txt" download>Download Text File</a> -->
+    <br>
+    
+    <!-- Download a PDF -->
+    <a href="no.pdf" download="document.pdf">Download PDF</a>
+    <br>
+    
+    <!-- Download a ZIP file -->
+    <a href="11.0+Bootstrap+Intro.zip" download="archive.zip">Download ZIP</a>
+
+
+    <audio src="" controls></audio>
+    <!-- <video src="vdo.mp4" controls autoplay muted loop preload="metadata" poster="images.png" width="200"></video>></video> -->
+</body>
+</html>
